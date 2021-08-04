@@ -2,9 +2,28 @@
 
 // Spacing
 .container {
-  max-width: rem(1);
+  max-width: rem(1262);
   margin: 0 auto;
 
+  &--tb-lg {
+    padding-top: rem(372);
+    padding-bottom: rem(222);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &--tb-md {
+    padding-top: rem(45);
+    padding-bottom: rem(184);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &--tb-lg {
+    padding-top: rem(373);
+    padding-bottom: rem(373);
+    padding-left: 0;
+    padding-right: 0;
+  }
   //   &--pall {
   //     padding-top: 4.375rem;
   //     padding-right: 1.5rem;

@@ -9,6 +9,12 @@ h5,
 h6,
 p {
   margin: 0;
+  transform-origin: left bottom;
+}
+
+span {
+  display: block;
+  transform-origin: left bottom;
 }
 
 /* Chỉ cho phép textarea được kéo dãn theo chiều dọc, trông sẽ đẹp hơn, không làm xấu layout */
@@ -37,4 +43,5 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
+  color: inherit;
 }
